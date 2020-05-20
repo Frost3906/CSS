@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .page {
+        border: 2px solid green;
+        width: 800px;
+        height: 300px;
+        margin: 0 auto;
+        padding: 10px;
+        position: relative;
+      }
+      .page img {
+        height: 300px;
+        float: left;
+      }
+      .controls a {
+        background-color: black;
+        line-height: 50px;
+        color: white;
+        display: block;
+        white-space: nowrap;
+        text-align: center;
+        position: absolute;
+        top: calc(50% - 25px);
+      }
+      .prev {
+        right: 100%;
+      }
+      .next {
+        left: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <img src="../images/seolak.jpg" alt="" />
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur qui
+        adipisci dolorem! Illo error commodi ab excepturi nihil ipsam facere
+        accusamus explicabo reiciendis expedita, nulla unde nostrum officia quos
+        debitis?
+      </p>
+      <div class="controls">
+        <a href="#" class="prev">Previous Project</a>
+        <a href="#" class="next">Next Project</a>
+      </div>
+    </div>
+  </body>
+</html>
